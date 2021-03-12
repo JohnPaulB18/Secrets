@@ -1,0 +1,349 @@
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Sign-up-button {
+  float:right;
+}
+
+.greeting_user{
+font-size: 25px;
+font-family: 'Courgette', cursive;
+color: #17D4FE;
+float: right;
+position: relative;
+}
+
+.clock {
+  position: absolute;
+  color: #17D4FE;
+  font-size: 25px;
+  font-family: 'Courgette', cursive;
+}
+
+.title-bar {
+  background-color: #252525;
+  padding: 5% 15% 5%;
+}
+
+.title-j2np {
+  font-family: 'Special Elite', cursive;
+  color: white;
+  text-align: center;
+}
+
+.title-text {
+  color: #FFF;
+  line-height: 2.5rem;
+}
+
+/* Dropdown staring */
+.dropbtn {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  background-color: #252525;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a:hover {
+  background-color: #f8dc81;
+  color: #121013;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* carousel Trending cars */
+
+.trending-cars-carousel{
+  background-color: #98ded9;
+}
+
+.trending-cars {
+  padding: 5% 20% 5%;
+  background-color: transparent;
+  margin: 4rem auto;
+  width: 80%;
+}
+
+.trending-cars-text {
+  font-family: 'Potta One', cursive;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+/* carousel Our Founders */
+.our-founders-title {
+  font-family: 'Potta One', cursive;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.our-founders-carousel{
+background-color: #fd3a69;
+}
+
+.our-founders {
+  padding: 5% 20% 5%;
+  background-color: transparent;
+  margin: 4rem auto;
+  width: 80%;
+}
+
+.our-founders-images {
+  width: 20%;
+  border-radius: 100%;
+  margin-bottom: 3rem;
+}
+
+/* Footer */
+.footer-button1 {
+  margin-right: 3rem
+}
+
+.reach-out{
+  color: #000;
+}
+
+.reach-out:hover{
+  color: #fff;
+}
+
+
+.Copyright{
+  text-align:center;
+  margin-top:4rem;
+}
+
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.home-buttons{
+  background-color: #0d7377;
+}
+
+.register-login-form{
+  margin-left: 25%;
+}
+
+.register-login-button{
+  margin-top: 1rem;
+}
+
+.signin-page-signup{
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.checkout{
+  color: #FFF;
+}
+
+.booking{
+  padding: 4rem;
+  background-color: #d3e0ea;
+}
+
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: transparent;
+  color: #499BFE;
+  padding: 16px 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  border: none;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  width: 19rem;
+  height:22rem;
+  display: none;
+  position: fixed;
+  bottom: 0.1rem;
+  right: 0.1rem;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 350px;
+  padding: 10px;
+}
+
+/* Full-width textarea */
+.form-container {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid;
+  border-radius: 5%;
+  background: #a1cae2;
+  resize: auto;
+  min-height: 300px;
+}
+
+input{
+  width:100%;
+  height: 2rem;
+  border: 3px solid #555;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  width: 100%;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.user{
+  color: #000;
+  float: right;
+}
+
+.chatbot{
+  color: blue;
+  float: left;
+}
+
+.chatbot-title{
+  color: #493323;
+}
+
+.cancel{
+  color: #d3e0ea;
+}
+
+
+.terms-and-conditions-navrbar{
+  padding: 3rem 3rem 2rem 3rem;
+  background-color: #ffffff;
+}
+
+.terms-and-conditions-title{
+  background-color: #111d5e;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+}
+
+.terms-and-conditions{
+text-align: center;
+padding: 4rem 4rem 0rem 4rem;
+font-family: 'Akaya Telivigala', cursive;
+font-size: 25px;
+}
+
+
+
+hr{
+  border: 10px dotted  #54e346;
+  background-color: #ffffff;
+  border-top: 10px;
+  width: 5%;
+}
+
+.thanks-note{
+  background-color: #fffaa4;
+  padding: 3rem;
+  text-align: center;
+}
+
+
+.policy-navrbar{
+  padding: 3rem 3rem 2rem 3rem;
+  background-color: #ffffff;
+}
+
+.policy-title{
+  background-color: #111d5e;
+  color: #ffffff;
+  padding: 4rem;
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.policy-tagline{
+text-align: center;
+padding: 1rem 4rem;
+color: #0e49b5;
+font-family: 'Akaya Telivigala', cursive;
+font-size: 25px;
+}
+
+.privacy-policy{
+  text-align: center;
+  color: #0e49b5;
+  font-family: 'Akaya Telivigala', cursive;
+font-size: 25px;
+}
+
+.policy{
+text-align: left;
+padding: 3rem 5rem 0rem 5rem;
+color: #0e49b5;
+font-family: 'Akaya Telivigala', cursive;
+font-size: 25px;
+}
+
+.policy-para1{
+  text-align: left;
+}
+
+.policy-para1 .policy-para2 .policy-para3 .policy-para4{
+  color: #0e49b5;
+}
